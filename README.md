@@ -1,2 +1,2 @@
-# onlinerailway
-Repository for Online Railway Booking System
+# onlinetrain
+Repository for Online Train Booking System
