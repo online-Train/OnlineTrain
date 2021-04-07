@@ -1,5 +1,6 @@
 
 <?php 
+	include_once 'update_data.php';
 	include_once 'insert_data.php';
 	include 'connect_db.php';
 	$result = mysqli_query($conn,"SELECT * FROM train");
@@ -109,7 +110,7 @@
 	<div id="addTrainModal" class="modal fade">
 		<div class="modal-dialog">
 			<div class="modal-content">
-				<form method="post" action="index.php">
+				<form method="post" action="train_reg.php">
 					<div class="modal-header">						
 						<h4 class="modal-title">Add Train</h4>
 						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
@@ -150,7 +151,7 @@
 			<div class="modal-content">
 				<form>
 					<div class="modal-header">						
-						<h4 class="modal-title">Edit Employee</h4>
+						<h4 class="modal-title">Edit Train Data</h4>
 						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 					</div>
 					<div class="modal-body">					
@@ -178,7 +179,7 @@
 					</div>
 					<div class="modal-footer">
 						<input type="button" class="btn btn-default" data-dismiss="modal" value="Cancel">
-						<input type="submit" class="btn btn-info" value="Save">
+						<input type="submit" class="btn btn-info" name="edit" value="Save">
 					</div>
 				</form>
 			</div>
