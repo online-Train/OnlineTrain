@@ -3,26 +3,7 @@
 <?php 
  
  
-//require_once 'C:/xampp/htdocs/TRS/twilio-php-main/src/Twilio/autoload.php'; 
-//require_once '/path/to/vendor/autoload.php'; 
- 
-// use Twilio\Rest\Client; 
- 
-// if(isset($_POST['send'])){
-// 	$sid    = "AC82f8e62b54c133bb25bedbc1c740d2ba"; 
-// 	$token  = "0548a005c3286574536d5ac02dfe335f"; 
-// 	$twilio = new Client($sid, $token); 
- 
-// 	$message = $twilio->messages 
-//                   	->create("whatsapp:+94760442947", // to 
-//                   	         array( 
-//                   	             "from" => "whatsapp:+14155238886",       
-//                   	             "body" => "Your Twilio code is 1238432" 
-//                    	        ) 
-//                  	 ); 
- 
-// 	print($message->sid);
-// }
+
 
 //?>
 
